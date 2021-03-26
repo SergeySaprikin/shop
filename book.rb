@@ -2,7 +2,7 @@
 
 require_relative 'product'
 
-# Book class.
+# Book  class.
 class Book < Product
   def self.from_file(path)
     file = File.open path
